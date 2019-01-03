@@ -24,6 +24,8 @@ This app is a `Basic Node.js Express 4 Application` created in Visual Studio.
     
 1. Next, we will paste this secret key into this sample. Clone or download this repo, then go to the `cognitive-services-studybot-node/StudyBotNode/` folder and open the `StudyBotNode.sln` file.
 
+    NOTE: It is not recommended to add a secret key to a webpage for security reasons, therefore when publishing a production release, be sure to use tokens for DirectLine instead: [Authenticate requests to Direct Line API 3.0](https://docs.microsoft.com/en-us/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-authentication?view=azure-bot-service-4.0).
+
 1. In your `index.pug`, paste your copied DirectLine key where indicated in the WebChat script.
 
 
