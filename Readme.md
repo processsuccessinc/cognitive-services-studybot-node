@@ -19,13 +19,13 @@ These samples create a Study Bot chat client using [QnA Maker](https://docs.micr
 
 ## Prerequisites
 
-1. Start with the [Qna-Luis-Botv4 sample](https://github.com/Azure-Samples/cognitive-services-studybot-node/tree/master/qna-luis-botv4-node). Once that is up and running, then build the [Study Bot sample](https://github.com/Azure-Samples/cognitive-services-studybot-node/tree/master/StudyBotNode). The Study Bot depends on the bot you build in Qna-Luis-Bot. Follow the README files in each sample.
+1. Start with the [qna-luis-botv4-node sample](https://github.com/Azure-Samples/cognitive-services-studybot-node/tree/master/qna-luis-botv4-node). Once that is up and running, then build the [StudyBotNode sample](https://github.com/Azure-Samples/cognitive-services-studybot-node/tree/master/StudyBotNode). The Study Bot depends on the bot you build in qna-luis-botv4-node. Follow the Readme files in each sample.
 
 1. Visual Studio 2017+
 
-1. Qna-Luis-Botv4 is a Node.js web app bot
+1. Qna-Luis-Botv4-Node is a Node.js web app bot
 
-1. The Study Bot app is a Node/Express Visual Studio app.
+1. The StudyBotNode app is a Node/Express Visual Studio app.
 
 ## Resources
 
