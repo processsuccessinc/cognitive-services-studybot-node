@@ -1,12 +1,12 @@
 # Study Bot Node
 
-This sample contains the Visual Studio Node/Express app that will embed the bot you created in the [Qna-Luis-Botv4 sample](https://github.com/Azure-Samples/cognitive-services-studybot-node/tree/master/qna-luis-botv4-node).
+This sample contains the Visual Studio Node/Express app that will embed the bot you created in the [qna-luis-botv4-node sample](https://github.com/Azure-Samples/cognitive-services-studybot-node/tree/master/qna-luis-botv4-node).
 
-This app is a Basic Node.js Express 4 Application created in Visual Studio.
+This app is a `Basic Node.js Express 4 Application` created in Visual Studio.
 
 ## Prerequisites
 
-1. Build the [Qna-Luis-Botv4 sample](https://github.com/Azure-Samples/cognitive-services-studybot-node/tree/master/qna-luis-botv4-node) and make sure your local code has been published back to Azure.
+1. Build the [qna-luis-botv4-node sample](https://github.com/Azure-Samples/cognitive-services-studybot-node/tree/master/qna-luis-botv4-node) and make sure your local code has been published back to Azure.
 
 1. Create a DirectLine channel in Azure, where your bot resource is located. To do this go to the Channels menu in your web app bot resource in Azure and click the globe icon.
 
