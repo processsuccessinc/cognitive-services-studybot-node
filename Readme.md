@@ -9,8 +9,6 @@ author: wiazur
 ---
 # Study Bot 
 
-NOTE: The Study Bot app is coming soon, but the bot (qna-luis-botv4-node) is available to build. Refer to the [Readme](https://github.com/Azure-Samples/cognitive-services-studybot-node/tree/master/qna-luis-botv4-node) in that directory to build it.
-
 These samples create a Study Bot chat client using [QnA Maker](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/index) (with [Chitchat](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/how-to/chit-chat-knowledge-base)) and [LUIS](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/). Each query into the chat bot (v4) will be accompanied by relevant search results in an encyclopedia, Microsoft Academic, and a news/blogs section as a study aid. Teachers are able to create their own question and answer FAQs to create a study guide as input for the chat bot if they want it to follow a preferred curriculum. However, demo FAQs are available for this sample, included in the [qna-luis-botv4-node/FAQs folder](https://github.com/Azure-Samples/cognitive-services-studybot-node/tree/master/qna-luis-botv4-node/FAQs). The focus of this app is to enable a more relevant experience of studying, where students can study a subject with a customized chat bot along with multiple web resources.
 
 ## Features
@@ -21,7 +19,7 @@ These samples create a Study Bot chat client using [QnA Maker](https://docs.micr
 
 ## Prerequisites
 
-1. Start with the Qna-Luis-Botv4 sample. Once that is up and running, then build the Study Bot sample. The Study Bot depends on the bot you build in Qna-Luis-Bot. Follow the README files in each sample.
+1. Start with the [Qna-Luis-Botv4 sample](https://github.com/Azure-Samples/cognitive-services-studybot-node/tree/master/qna-luis-botv4-node). Once that is up and running, then build the [Study Bot sample](https://github.com/Azure-Samples/cognitive-services-studybot-node/tree/master/StudyBotNode). The Study Bot depends on the bot you build in Qna-Luis-Bot. Follow the README files in each sample.
 
 1. Visual Studio 2017+
 
