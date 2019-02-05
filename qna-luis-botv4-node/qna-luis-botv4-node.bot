@@ -15,7 +15,7 @@
     {
       "connectionString": "<YOUR-AUTO-POPULATED-CONNECTION-STRING>",
       "tenantId": "<YOUR-AUTO-POPULATED-TENANT-ID>",
-      "subscriptionId": "<YOUR-AZURE-SUBSCRIPTION-KEY>",
+      "subscriptionId": "<YOUR-AZURE-SUBSCRIPTION-ID>",
       "resourceGroup": "<YOUR-BOT-RESOURCE-GROUP>",
       "serviceName": "qnaluisbotv4node81f4",
       "type": "blob",
