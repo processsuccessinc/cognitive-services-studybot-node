@@ -91,9 +91,9 @@ npm install --save
 ## Prerequisites - Syncing the code
 
 Now that your Dispatch structure is set in your bot and in luis.ai, you only need to copy/paste missing code when comparing your bot with this sample.
-1. Compare the `bot.js`, `index.js`, `qna.js`, and the `qna-luis-botv4-node.bot` files with your own. Take special note of adding/changing the bot configurations and intents. Your files should mirror this samples' files. Because we are using four knowledge bases (KBs), some of the logic has changed to incorporate those.
-1. Your `.bot` file came with certain standard objects, keep them (objects of type abs, blob, 2 endpoints, and app insights if you chose to include that in Azure). The only exception is we don't need the type "luis" object, it will be replaced with our dispatch app. So go ahead and delete the type luis object.
-1. Add the dispatch and four QnA Maker objects as shown in this sample. Replace the `<TEXT>` parts with your own unique values. The ID numbers are mostly arbitrary, but they must match up. For instance, you should have the same IDs for your QnA Maker KBs in your `.bot` file as the IDs in your `.dispatch` file. Also, the `serviceIds` in the type dispatch object should include all your KBs and your App Insight's ID (if included). The type dispatch object need not include any of the standard object IDs (since its job is not to dispatch those).
+1. Compare the `bot.js`, `index.js`, `qna.js` (create this file if not there), and the `qna-luis-botv4-node.bot` files with your own. Take special note of adding/changing the bot configurations and intents names at the top of the file, where applicable. Your files should mirror this samples' files. Because we are using four knowledge bases (KBs), some of the logic has changed from the original files.
+1. Your `.bot` file came with certain standard objects, keep them (objects of type abs, blob, 2 endpoints, and app insights if you chose to include that in Azure). The only exception is we don't need the type "luis" object, it will be replaced with our dispatch app. So go ahead and delete the type "luis" object.
+1. Add the dispatch and four QnA Maker objects as shown in this sample's [.bot file](https://github.com/Azure-Samples/cognitive-services-studybot-node/blob/master/qna-luis-botv4-node/qna-luis-botv4-node.bot). Replace the `<TEXT>` parts with your own unique values. The ID numbers are mostly arbitrary, but they must match up. For instance, you should have the same IDs for your QnA Maker KBs in your `.bot` file as the IDs in your `.dispatch` file. Also, the `serviceIds` in the type dispatch object should include all your KBs and your App Insight's ID (if included). The type dispatch object need not include any of the standard (default) object IDs (since its job is not to dispatch those).
 1. For simplicity's sake, make sure your padlock value is deleted in your `.bot` file. It is still in the code in Azure, so you can reuse it if you'd like your `.bot` file to be encrypted.
 1. Make sure your beginning and ending values of your `.bot` file are the same as in this sample. They should look like this, with nothing coming after your services array:
 ```json
@@ -106,7 +106,7 @@ Now that your Dispatch structure is set in your bot and in luis.ai, you only nee
      ]
   }
   ```
-  1. Note that the Bing Spell Check subscription key is something added to the "dispatch" type object. If you did not include Bing Spell Check, then there is no need to add that. Just make sure to comment out the Bing Spell Check Code you see in the `bot.js` file. Basically this would be the LuisPredictionOptions object and removing that instance from the LuisRecognizer constructor (the 2nd parrameter).
+  1. Note that the Bing Spell Check subscription key is something added to the "dispatch" type object. If you did not include Bing Spell Check, then there is no need to add that. Just make sure to comment out the Bing Spell Check Code you see in the `bot.js` file. Basically this would be the LuisPredictionOptions object and removing that instance from the LuisRecognizer constructor (the 2nd parameter).
   
 ## Run and test your bot
 1. Run your bot project by typing `npm start` in your CLI. 
