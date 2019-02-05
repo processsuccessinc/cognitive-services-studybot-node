@@ -62,7 +62,7 @@ After creating your Bing Spell Check v7 resource in the Azure portal, you'll nee
     ```bash
     npm install restify
     ```
-These will install all the packages you need. If you get an error saying "restify cannot be found", your npm might not be installed, so then do:
+These will install all the packages you need. If you get an error saying "restify cannot be found", your npm might not be installed, so then do the below command (followed by the restify command again):
 
 ```bash
 npm install --save
