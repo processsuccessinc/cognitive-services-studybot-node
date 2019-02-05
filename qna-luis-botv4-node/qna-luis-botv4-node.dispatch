@@ -5,28 +5,28 @@
   "services": [
     {
       "kbId": "<YOUR-KB-ID>",
-      "subscriptionKey": "<YOUR-AZURE-SUBSCRIPTION-KEY>",
+      "subscriptionKey": "<YOUR-AZURE-SUBSCRIPTION-ID>",
       "type": "qna",
       "name": "",
       "id": "5"
     },
     {
       "kbId": "<YOUR-KB-ID>",
-      "subscriptionKey": "<YOUR-AZURE-SUBSCRIPTION-KEY>",
+      "subscriptionKey": "<YOUR-AZURE-SUBSCRIPTION-ID>",
       "type": "qna",
       "name": "",
       "id": "6"
     },
     {
       "kbId": "<YOUR-KB-ID>",
-      "subscriptionKey": "<YOUR-AZURE-SUBSCRIPTION-KEY>",
+      "subscriptionKey": "<YOUR-AZURE-SUBSCRIPTION-ID>",
       "type": "qna",
       "name": "",
       "id": "7"
     },
     {
       "kbId": "<YOUR-KB-ID>",
-      "subscriptionKey": "<YOUR-AZURE-SUBSCRIPTION-KEY>",
+      "subscriptionKey": "<YOUR-AZURE-SUBSCRIPTION-ID>",
       "type": "qna",
       "name": "",
       "id": "8"
