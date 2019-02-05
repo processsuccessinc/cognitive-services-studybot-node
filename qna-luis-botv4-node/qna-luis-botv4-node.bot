@@ -61,7 +61,7 @@
       "id": "5",
       "kbId": "<YOUR-KB-ID>",
       "name": "<KB-NAME-1>",
-      "subscriptionKey": "<YOUR-AZURE-SUBSCRIPTION-KEY>"
+      "subscriptionKey": "<YOUR-AZURE-SUBSCRIPTION-ID>"
     },
     {
       "type": "qna",
@@ -70,7 +70,7 @@
       "id": "6",
       "kbId": "<YOUR-KB-ID>",
       "name": "<KB-NAME-2>",
-      "subscriptionKey": "<YOUR-AZURE-SUBSCRIPTION-KEY>"
+      "subscriptionKey": "<YOUR-AZURE-SUBSCRIPTION-ID>"
     },
     {
       "type": "qna",
@@ -79,7 +79,7 @@
       "id": "7",
       "kbId": "<YOUR-KB-ID>",
       "name": "<KB-NAME-3>",
-      "subscriptionKey": "<YOUR-AZURE-SUBSCRIPTION-KEY>"
+      "subscriptionKey": "<YOUR-AZURE-SUBSCRIPTION-ID>"
     },
     {
       "type": "qna",
@@ -88,7 +88,7 @@
       "id": "8",
       "kbId": "<YOUR-KB-ID>",
       "name": "<KB-NAME-4>",
-      "subscriptionKey": "<YOUR-AZURE-SUBSCRIPTION-KEY>"
+      "subscriptionKey": "<YOUR-AZURE-SUBSCRIPTION-ID>"
     }
   ]
 }
