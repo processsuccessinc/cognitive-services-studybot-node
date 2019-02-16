@@ -76,10 +76,10 @@ npm install --save
 1. Your QnA Maker KB IDs can be found by going to "My knowledge bases" in qnamaker.ai and clicking the "View code" on the far right side of your knowledge base. Your KB ID is the string of random numbers/letters in the first line. The QnAKey is your QnA Maker key from your resource in Azure, found in the "Keys" section of the menu in your resource. You have two keys, use either one. This is the resource (your Azure QnA service) you used when creating your knowledge bases in qnamaker.ai. 
     ```bash
     dispatch init -n {UniqueDispatchName} --luisAuthoringKey xxxxxxxxxxxxxxxxxxxx --luisAuthoringRegion {LUISauthoringRegion} --culture en-us
-    dispatch add -t qna -i {kbId1} -k {QnaKey from Azure}
-    dispatch add -t qna -i {kbId2} -k {QnaKey from Azure}
-    dispatch add -t qna -i {kbId3} -k {QnaKey from Azure}
-    dispatch add -t qna -i {chitChatKbId} -k {QnaKey from Azure}
+    dispatch add -t qna -i {kbId1} -n {KB name} -k {QnaKey from Azure}
+    dispatch add -t qna -i {kbId2} -n {KB name} -k {QnaKey from Azure}
+    dispatch add -t qna -i {kbId3} -n {KB name} -k {QnaKey from Azure}
+    dispatch add -t qna -i {chitChatKbId} -n {KB name} -k {QnaKey from Azure}
     dispatch create
     ```
 1. With all your services added, you can view them in the YOUR-BOT-NAME.dispatch file that was just created to see the services. Also notice the YOUR-BOT-NAME.json file now contains a very long list of every utterance you have from your LUIS Dispatch app from all its intents.
